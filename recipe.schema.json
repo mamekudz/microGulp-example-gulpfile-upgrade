@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://microgulp.dev/schemas/gulpfile-upgrade-recipe.schema.json",
+	"title": "Gulpfile upgrade recipe configuration",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["schemaVersion", "outputDirectory", "features"],
+	"properties": {
+		"schemaVersion": { "const": 1 },
+		"outputDirectory": { "type": "string", "minLength": 1 },
+		"features": {
+			"type": "object", "additionalProperties": false,
+			"required": ["destinationForm", "keyboardShortcuts"],
+			"properties": { "destinationForm": { "type": "boolean" }, "keyboardShortcuts": { "type": "boolean" } }
+		}
+	}
+}

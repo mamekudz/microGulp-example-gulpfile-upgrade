@@ -1,0 +1,15 @@
+{
+	"releases": [
+		{
+			"main": 1,
+			"minor": 0,
+			"revision": 0,
+			"date": "2026-10-13 00:00",
+			"beta": false,
+			"info": [
+				"Added an additive µGulp integration while preserving existing Gulp task export names and CLI entrypoints.<context=\"release info\"/>",
+				"Added optional form, validated feature configuration, i18x task metadata and backwards-compatibility tests.<context=\"release info\"/>"
+			]
+		}
+	]
+}

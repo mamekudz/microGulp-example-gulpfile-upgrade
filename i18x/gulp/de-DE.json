@@ -1,0 +1,12 @@
+{
+	"Build website V<version/><context=\"µDisplayName\"/>": "Website V<version/> erstellen",
+	"Builds the existing website output.<context=\"µDescription\"/>": "Erstellt die vorhandene Website-Ausgabe.",
+	"Build<context=\"µGroup\"/>": "Build",
+	"Verify website output<context=\"µDisplayName\"/>": "Website-Ausgabe prüfen",
+	"Checks the output from the existing build task.<context=\"µDescription\"/>": "Prüft die Ausgabe des vorhandenen Build-Tasks.",
+	"Build options<context=\"form title\"/>": "Build-Einstellungen",
+	"Build<context=\"form submit\"/>": "Erstellen",
+	"Output folder<context=\"form label\"/>": "Ausgabeordner",
+	"Added an additive µGulp integration while preserving existing Gulp task export names and CLI entrypoints.<context=\"release info\"/>": "µGulp wurde ergänzend integriert; bestehende Gulp-Task-Exporte und CLI-Aufrufe bleiben erhalten.",
+	"Added optional form, validated feature configuration, i18x task metadata and backwards-compatibility tests.<context=\"release info\"/>": "Optionales Formular, geprüfte Feature-Konfiguration, i18x-Task-Metadaten und Rückwärtskompatibilitätstests ergänzt."
+}

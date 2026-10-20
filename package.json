@@ -1,0 +1,22 @@
+{
+	"name": "microgulp-recipe-gulpfile-upgrade",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"engines": { "node": ">=22" },
+	"scripts": {
+		"test": "node --test tests/*.test.mjs",
+		"check": "node tools/Check.mjs",
+		"release:check": "node tools/RecipeRelease.mjs --check",
+		"release:sync": "node tools/RecipeRelease.mjs --sync",
+		"release:history": "node tools/RecipeRelease.mjs --history",
+		"pretest": "npm run release:check",
+		"tasks": "gulp --tasks",
+		"build": "gulp BUILD_SITE",
+		"verify": "gulp VERIFY_SITE"
+	},
+	"devDependencies": {
+		"gulp": "5.0.1",
+		"gulp-mu-gulp-api": "file:vendor/gulp-mu-gulp-api-0.8.0.tgz"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"schemaVersion": 1,
+	"outputDirectory": "dist",
+	"features": {
+		"destinationForm": true,
+		"keyboardShortcuts": true
+	}
+}

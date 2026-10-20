@@ -1,0 +1,9 @@
+{
+	"project": {
+		"title": "µGulp Recipe: Gulpfile Upgrade",
+		"description": "Add µGulp controls to an existing Gulp workflow without renaming its tasks.",
+		"logo": "./assets/microgulp-logo.png"
+	},
+	"metadataWatchFiles": ["RELEASES.json", "recipe.config.json"],
+	"versionSources": ["RELEASES.json"]
+}
