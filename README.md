@@ -32,7 +32,7 @@ Inspect task exports and every use in scripts, CI and docs first. Add the API im
 The unit tests use temporary folders. The sample does not run a production build. µGulp IDE rendering, Windows/macOS/Linux, and other µGulp/API release combinations require separate acceptance tests. No remote repository or public release is configured.
 
 <!-- blog-publication:start -->
-Artikel: [Deutsch](https://microgulp.dev/blogs/gulpfile-upgrade)
+Artikel: [Deutsch](https://microgulp.dev/de/blog/gulpfile-upgrade/)
 
 Weitere Beispiele: [microGulp-Examples](https://github.com/mamekudz/microGulp-Examples).
 <!-- blog-publication:end -->
